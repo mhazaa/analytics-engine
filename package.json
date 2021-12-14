@@ -11,7 +11,7 @@
   "author": "Magdi Hazaa",
   "license": "ISC",
   "dependencies": {
-    "mags-mongodb": "^1.0.0",
+    "mags-mongodb": "^1.0.1",
     "uniqid": "^5.4.0"
   },
   "devDependencies": {
