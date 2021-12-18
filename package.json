@@ -11,13 +11,13 @@
   "author": "Magdi Hazaa",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/uniqid": "^5.3.2",
     "mags-mongodb": "^1.0.1",
     "uniqid": "^5.4.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13",
     "@types/node": "^16.11.7",
-    "@types/uniqid": "^5.3.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
