@@ -14,16 +14,16 @@
   "dependencies": {
     "@types/express": "^4.17.13",
     "@types/uniqid": "^5.3.2",
-    "mags-mongodb": "^1.0.1",
+    "mags-mongodb": "^1.0.3",
     "uniqid": "^5.4.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.7",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "^8.2.0",
+    "@types/node": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.5.0",
     "node-ts": "^5.1.2",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   }
 }
