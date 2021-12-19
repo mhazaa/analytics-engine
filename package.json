@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Simple analytics tracker for Express and MongoDB",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
