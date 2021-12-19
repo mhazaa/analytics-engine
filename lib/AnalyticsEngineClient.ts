@@ -38,7 +38,7 @@ export default class AnalyticsEngineClient {
 			: AnalyticsEngineClient.connectionCallbacks.push(callback);
 	}
 
-	public static async sendMetric (metric: string, globalMetric: string = metric) {
+	public static async sendMetric (metric: string, globalMetric = metric) {
 		const sendMetric = async () => {
 			const userId = AnalyticsEngineClient.getUserId();
 			const data: SendMetricData = { userId, metric, globalMetric };
