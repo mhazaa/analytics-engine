@@ -1,5 +1,5 @@
 {
-  "name": "mags-analytics",
+  "name": "@mhazaa/analytics-engine",
   "version": "1.0.4",
   "description": "Simple analytics tracker for Express and MongoDB",
   "main": "src/index.js",
@@ -12,9 +12,9 @@
   "author": "Magdi Hazaa",
   "license": "ISC",
   "dependencies": {
+    "@mhazaa/mongo-controller": "^1.0.6",
     "@types/express": "^4.17.13",
     "@types/uniqid": "^5.3.2",
-    "mags-mongodb": "^1.0.3",
     "uniqid": "^5.4.0"
   },
   "devDependencies": {

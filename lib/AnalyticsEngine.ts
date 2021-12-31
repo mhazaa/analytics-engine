@@ -1,14 +1,21 @@
 import { Application } from 'express';
-import { Collection } from 'mags-mongodb';
+import DB, {Collection, Config } from '@mhazaa/mongo-controller';
 import { PageLoadedData, SendMetricData } from './types';
 
 export default class AnalyticsEngine {
 	private static connected = false;
 	private static collection: Collection;
 
-	public static connect (collection: Collection): void {
+	public static connectUsingCollection (collection: Collection): void {
 		AnalyticsEngine.connected = true;
 		AnalyticsEngine.collection = collection;
+		console.log('Successfully connected to AnalyticsEngine');
+	}
+
+	public static async connectUsingDBConfig (config: Config): Promise<void> {
+		const db = new DB(config);
+		await db.connect();
+		AnalyticsEngine.collection = db.collection('analytics');
 		console.log('Successfully connected to AnalyticsEngine');
 	}
 

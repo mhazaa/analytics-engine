@@ -1,9 +1,10 @@
 import { Application } from 'express';
-import { Collection } from 'mags-mongodb';
+import { Collection, Config } from '@mhazaa/mongo-controller';
 export default class AnalyticsEngine {
     private static connected;
     private static collection;
-    static connect(collection: Collection): void;
+    static connectUsingCollection(collection: Collection): void;
+    static connectUsingDBConfig(config: Config): Promise<void>;
     static routes(app: Application): void;
     private static pageLoaded;
     private static newView;
