@@ -1,5 +1,5 @@
 import { Application } from 'express';
-import DB, {Collection, Config } from '@mhazaa/mongo-controller';
+import DB, { Collection, Config } from '@mhazaa/mongo-controller';
 import { PageLoadedData, SendMetricData } from './types';
 
 export default class AnalyticsEngine {
