@@ -1,2 +1,2 @@
-import AnalyticsEngineClient from '../../lib/AnalyticsEngine';
+import AnalyticsEngineClient from '../../lib/AnalyticsEngineClient';
 export default AnalyticsEngineClient;
