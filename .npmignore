@@ -1,2 +1,3 @@
 *.ts
 !*.d.ts
+.DS_STORE
