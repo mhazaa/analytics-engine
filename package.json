@@ -1,6 +1,6 @@
 {
   "name": "@mhazaa/analytics-engine",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Simple analytics tracker for Express and MongoDB",
   "module": "src/index.js",
   "types": "src/index.d.ts",
