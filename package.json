@@ -9,7 +9,7 @@
 			"require": "./build/cjs/src/index.js",
 			"import": "./build/esm/src/index.js"
 		},
-		"./connect": {
+		"./client": {
 			"require": "./build/cjs/src/client/index.js",
 			"import": "./build/esm/src/client/index.js"
 		}
