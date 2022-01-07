@@ -2,17 +2,18 @@
   "name": "@mhazaa/analytics-engine",
   "version": "1.0.6",
   "description": "Simple analytics tracker for Express and MongoDB",
-  "main": "src/index.js",
+  "module": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "Magdi Hazaa",
   "license": "ISC",
   "dependencies": {
-    "@mhazaa/mongo-controller": "^1.0.7",
+    "@mhazaa/mongo-controller": "^1.0.8",
     "@types/express": "^4.17.13",
     "@types/uniqid": "^5.3.2",
     "uniqid": "^5.4.0"
