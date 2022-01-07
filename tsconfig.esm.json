@@ -1,13 +1,13 @@
 {
-  "compilerOptions": {
-    "target": "esNext",
-    "module": "esNext",
-    "moduleResolution": "node",
-    "declaration": true,
-	"outDir": "./build/esm",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
-  }
+	"compilerOptions": {
+		"target": "esNext",
+		"module": "esNext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"outDir": "./build/esm",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	}
 }

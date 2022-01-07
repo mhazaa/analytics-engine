@@ -4,16 +4,6 @@
 	"description": "Simple analytics tracker for Express and MongoDB",
 	"main": "./build/cjs/src/index.js",
 	"module": "./build/esm/src/index.js",
-	"exports": {
-		".": {
-			"require": "./build/cjs/src/index.js",
-			"import": "./build/esm/src/index.js"
-		},
-		"./client": {
-			"require": "./build/cjs/src/client/index.js",
-			"import": "./build/esm/src/client/index.js"
-		}
-	},
 	"scripts": {
 		"build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
 		"prepublishOnly": "npm run build"
@@ -22,7 +12,7 @@
 	"author": "Magdi Hazaa",
 	"license": "ISC",
 	"dependencies": {
-		"@mhazaa/mongo-controller": "^1.0.12",
+		"@mhazaa/mongo-controller": "^1.0.13",
 		"@types/express": "^4.17.13",
 		"@types/uniqid": "^5.3.2",
 		"uniqid": "^5.4.0"
