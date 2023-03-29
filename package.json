@@ -1,6 +1,6 @@
 {
 	"name": "@mhazaa/analytics-engine",
-	"version": "1.0.18",
+	"version": "1.0.19",
 	"description": "Simple analytics tracker for Express and MongoDB",
 	"main": "./build/cjs/src/index.js",
 	"module": "./build/esm/src/index.js",
