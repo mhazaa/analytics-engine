@@ -8,6 +8,10 @@
 		"build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
 		"prepublishOnly": "npm run build"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mhazaa/analytics-engine.git"
+	},
 	"keywords": [],
 	"author": "Magdi Hazaa",
 	"license": "ISC",
