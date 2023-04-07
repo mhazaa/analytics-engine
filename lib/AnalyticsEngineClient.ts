@@ -57,12 +57,12 @@ export default class AnalyticsEngineClient {
 			: sendMetric();
 	}
 
-	private static getUserId (): string {
-		return getCookie('userid');
+	public static getUserId (): string {
+		return getCookie('userId');
 	}
 	
 	private static setUserId (userId: string): string {
-		document.cookie = `userid=${userId}`;
+		document.cookie = `userId=${userId}`;
 		return AnalyticsEngineClient.getUserId();
 	}
 }
