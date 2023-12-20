@@ -1,3 +1,7 @@
+# Analytics Engine
+
+https://www.npmjs.com/package/@mhazaa/analytics-engine/
+
 Analytics engine for Express and MongoDB
 
 Example:
