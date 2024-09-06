@@ -16,7 +16,7 @@
 	"author": "Magdi Hazaa",
 	"license": "ISC",
 	"dependencies": {
-		"@mhazaa/mongo-controller": "^1.0.19",
+		"@mhazaa/mongo-controller": "^1.0.20",
 		"@types/express": "^4.17.13",
 		"@types/uniqid": "^5.3.2",
 		"uniqid": "^5.4.0"
